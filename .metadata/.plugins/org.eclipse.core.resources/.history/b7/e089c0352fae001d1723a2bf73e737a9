@@ -1,0 +1,23 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Aluno aluno = new Aluno();
+		Professor professor = new Professor();
+		
+		aluno.setNome("Matheus");
+		aluno.setTeste(7); 
+		aluno.setProva(8.5);
+		
+		System.out.println(aluno.getNome());
+		System.out.println(aluno.getMedia());
+		
+		professor.setNome("Maurão");
+		professor.setSalario(10000);
+		
+		System.out.println(professor.getNome());
+		System.out.println(professor.getInss());
+		System.out.println(professor.getSalarioLiquido());
+	}
+
+}

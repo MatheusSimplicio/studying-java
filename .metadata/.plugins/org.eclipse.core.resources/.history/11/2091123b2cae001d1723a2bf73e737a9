@@ -1,0 +1,14 @@
+
+public class Professor {
+	String nome;
+	
+	double salario;
+	
+	double getInss() {
+		return salario * 0.11;
+	}
+	
+	double getSalarioLiquido() {
+		return salario = getInss();	
+	}
+}

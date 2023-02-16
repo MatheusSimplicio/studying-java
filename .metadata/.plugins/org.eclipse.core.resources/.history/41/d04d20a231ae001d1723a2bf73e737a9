@@ -1,0 +1,7 @@
+
+public class AlunoEnsinoMedio extends Aluno {
+
+	double getMedia() {
+		return (teste + prova)/2;
+	}
+}

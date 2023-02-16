@@ -1,0 +1,15 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Aluno aluno = new Aluno();
+		
+		aluno.setNome("Matheus");
+		aluno.setTeste(7); 
+		aluno.setProva(8.5);
+		
+		System.out.println(aluno.getNome());
+		System.out.println(aluno.getMedia());
+	}
+
+}

@@ -1,0 +1,15 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		int[] nota = {9, 10, 5};
+		
+		nota[0] = 5;
+		nota[1] = 10;
+		nota[2] = 0;
+		
+		for(int valor:nota)
+		System.out.println(valor);
+	}
+
+}

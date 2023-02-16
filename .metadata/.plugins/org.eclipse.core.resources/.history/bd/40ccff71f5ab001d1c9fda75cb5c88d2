@@ -1,0 +1,15 @@
+import java.util.Arrays;
+public class OrdenandoArray {
+	public static void main(String[] args) {
+		float[] resultadoArray = {
+				71.3 f,
+				35.2 f,
+				45.7 f,
+				62.9 f,
+				12.5 f
+		};
+		System.out.println("Matriz antes da ordenação: " +Arrays.toString(resultadoArray));
+		Arrays.sort(resultadoArray);
+		System.out.println("Matriz depois da ordenação: " +Arrays.toString(resultadoArray));
+	}
+}
